@@ -1,0 +1,165 @@
+@import "./lib/bootstrap.min.css";
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: #f0fafb;
+}
+
+header {
+  background-image: url(../img/bg-header-desktop.svg);
+  background-color: #5da5a4;
+  height: 100%;
+  padding-bottom: 160px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.filter-page {
+  padding: 80px 0;
+}
+.filter-page .categories {
+  margin: 20px 0;
+  margin-top: -120px;
+}
+.filter-page .categories #form-control {
+  padding: 15px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  min-height: 87px;
+}
+.filter-page .categories #form-control ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.filter-page .categories #form-control ul li {
+  margin-right: 10px;
+  color: grey;
+  font-weight: 500;
+  list-style: none;
+  display: flex;
+  margin-bottom: 5px;
+}
+.filter-page .categories #form-control ul li span {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #22796d;
+  background-color: #dcdddd;
+  padding: 2.5px 10px;
+  height: 100%;
+}
+.filter-page .categories #form-control ul li small {
+  padding: 1.5px 10px;
+  color: #fff;
+  background-color: #56A49F;
+  height: 100%;
+  display: block;
+  cursor: pointer;
+  transition: all 0.1s linear;
+}
+.filter-page .categories #form-control ul li small:hover {
+  background-color: #2E3839;
+}
+.filter-page .categories .dropdown span {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 30px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  margin-left: 25px;
+}
+.filter-page .categories .dropdown ul {
+  padding: 10px;
+  border: none;
+  max-height: 350px;
+  overflow: auto;
+}
+.filter-page .categories .dropdown ul li {
+  display: flex;
+  align-items: center;
+}
+.filter-page .categories .dropdown ul li input {
+  margin: 8px;
+}
+.filter-page .wrapper {
+  box-shadow: 0 100px 100px rgba(104, 162, 163, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px 0;
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+}
+.filter-page .wrapper.active::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 5px;
+  background-color: #22796d;
+  margin: 0;
+  border-radius: 10px;
+}
+.filter-page .wrapper .filter-card {
+  display: flex;
+}
+.filter-page .wrapper .filter-card .filter-img > img {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin: 15px;
+}
+.filter-page .wrapper .filter-card span {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  color: #22796d;
+}
+.filter-page .wrapper .filter-card h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.filter-page .wrapper .filter-card ul {
+  padding: 0;
+}
+.filter-page .wrapper .filter-card ul li {
+  margin-right: 25px;
+  color: grey;
+  font-weight: 500;
+}
+.filter-page .wrapper .filter-card ul li:first-child {
+  list-style: none;
+}
+.filter-page .wrapper .filter-group {
+  display: flex;
+}
+.filter-page .wrapper .filter-group span {
+  display: block;
+  padding: 7px;
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+  height: 100%;
+  transition: all 0.2s linear;
+  color: #68a2a3;
+  background-color: #eef7f6;
+  font-weight: 600;
+  border-radius: 2px;
+  margin: 0 10px;
+}

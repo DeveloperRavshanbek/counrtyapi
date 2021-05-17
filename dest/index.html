@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filter</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header></header>
+    <section class="filter-page">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 d-flex categories">
+            <div class="col-md-9">
+              <div id="form-control" class="w-100">
+                <ul>
+                  No item Selected
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="dropdown">
+                <span
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-bs-offset="0,1"
+                >
+                  Filter By
+                </span>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li class="dropdown-item">
+                    <input id="drop-front" type="checkbox" value="frontend" />
+                    <label for="drop-front">FrontEnd</label>
+                  </li>
+                  <li class="dropdown-item">
+                    <input id="drop-back" type="checkbox" value="backend" />
+                    <label for="drop-back">Backend</label>
+                  </li>
+                  <li class="dropdown-item">
+                    <input id="drop-react" type="checkbox" value="react" />
+                    <label for="drop-react">React</label>
+                  </li>
+                  <li class="dropdown-item">
+                    <input id="drop-html" type="checkbox" value="html" />
+                    <label for="drop-html">HTML</label>
+                  </li>
+                  <li class="dropdown-item">
+                    <input id="drop-css" type="checkbox" value="css" />
+                    <label for="drop-css">CSS</label>
+                  </li>
+                  <li class="dropdown-item">
+                    <input id="drop-js" type="checkbox" value="javascript" />
+                    <label for="drop-js">JavaSript</label>
+                  </li>
+                  <li class="dropdown-item">
+                    <input id="drop-item" type="checkbox" value="ruby" />
+                    <label for="drop-item">Ruby</label>
+                  </li>
+                  <li class="dropdown-item">
+                    <input id="drop-py" type="checkbox" value="python" />
+                    <label for="drop-py">Python</label>
+                  </li>
+                  <li class="dropdown-item">
+                    <input id="drop-senior" type="checkbox" value="junior" />
+                    <label for="drop-senior">Junior</label>
+                  </li>
+                  <li class="dropdown-item">
+                    <input id="drop-senior" type="checkbox" value="middle" />
+                    <label for="drop-senior">Middle</label>
+                  </li>
+                  <li class="dropdown-item">
+                    <input id="drop-senior" type="checkbox" value="django" />
+                    <label for="drop-senior">Django</label>
+                  </li>
+                  <li class="dropdown-item">
+                    <input id="drop-senior" type="checkbox" value="fullstack" />
+                    <label for="drop-senior">FullStack</label>
+                  </li>
+                  <li class="dropdown-item">
+                    <input id="drop-senior" type="checkbox" value="vue" />
+                    <label for="drop-senior">Vue</label>
+                  </li>
+                  <li class="dropdown-item">
+                    <input id="drop-senior" type="checkbox" value="sass" />
+                    <label for="drop-senior">Sass</label>
+                  </li>
+                  <li class="dropdown-item">
+                    <input id="drop-senior" type="checkbox" value="ror" />
+                    <label for="drop-senior">RoR</label>
+                  </li>
+                  <li class="dropdown-item">
+                    <input id="drop-senior" type="checkbox" value="senior" />
+                    <label for="drop-senior">Senior</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2 d-flex align-items-center mx-4">
+              <button class="refresh btn btn-primary">&#8634;</button>
+            </div>
+          </div>
+        </div>
+        <div class="row filter-content">
+          <div class="col-md-12 wrapper active frontend senior html css javascript">
+            <div class="col-md-6">
+              <div class="filter-card">
+                <div class="filter-img">
+                  <img src="./img/photosnap.svg" alt="" />
+                </div>
+                <div class="filter-block">
+                  <span>Photosnap</span>
+                  <h3>Senior FrontEnd Developer</h3>
+                  <ul class="d-flex">
+                    <li>1d ago</li>
+                    <li>Full Time</li>
+                    <li>UZB only</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="filter-group">
+                <span>FrontEnd</span>
+                <span>Senior</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaSript</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 wrapper active fullstack middle backend react">
+            <div class="col-md-6">
+              <div class="filter-card">
+                <div class="filter-img">
+                  <img src="./img/manage.svg" alt="" />
+                </div>
+                <div class="filter-block">
+                  <span>Photosnap</span>
+                  <h3>Senior FrontEnd Developer</h3>
+                  <ul class="d-flex">
+                    <li>1d ago</li>
+                    <li>Full Time</li>
+                    <li>UZB only</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="filter-group">
+                <span>FullStack</span>
+                <span>Middle</span>
+                <span>Backend</span>
+                <span>React</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 wrapper react frontend junior react sass javascript">
+            <div class="col-md-6">
+              <div class="filter-card">
+                <div class="filter-img">
+                  <img src="./img/account.svg" alt="" />
+                </div>
+                <div class="filter-block">
+                  <span>Photosnap</span>
+                  <h3>Senior FrontEnd Developer</h3>
+                  <ul class="d-flex">
+                    <li>1d ago</li>
+                    <li>Full Time</li>
+                    <li>UZB only</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="filter-group">
+                <span>FrontEnd</span>
+                <span>Junior</span>
+                <span>React</span>
+                <span>Sass</span>
+                <span>JavaSript</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 wrapper frontend junior css javascript">
+            <div class="col-md-6">
+              <div class="filter-card">
+                <div class="filter-img">
+                  <img src="./img/myhome.svg" alt="" />
+                </div>
+                <div class="filter-block">
+                  <span>Photosnap</span>
+                  <h3>Senior FrontEnd Developer</h3>
+                  <ul class="d-flex">
+                    <li>1d ago</li>
+                    <li>Full Time</li>
+                    <li>UZB only</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="filter-group">
+                <span>FrontEnd</span>
+                <span>Junior</span>
+                <span>CSS</span>
+                <span>JavaSript</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 wrapper fullstack middle javascript sass ruby">
+            <div class="col-md-6">
+              <div class="filter-card">
+                <div class="filter-img">
+                  <img src="./img/loop-studios.svg" alt="" />
+                </div>
+                <div class="filter-block">
+                  <span>Photosnap</span>
+                  <h3>Senior FrontEnd Developer</h3>
+                  <ul class="d-flex">
+                    <li>1d ago</li>
+                    <li>Full Time</li>
+                    <li>UZB only</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="filter-group">
+                <span>FullStack</span>
+                <span>Middle</span>
+                <span>JavaSript</span>
+                <span>Sass</span>
+                <span>Ruby</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 wrapper backend junior ruby ror">
+            <div class="col-md-6">
+              <div class="filter-card">
+                <div class="filter-img">
+                  <img src="./img/faceit.svg" alt="" />
+                </div>
+                <div class="filter-block">
+                  <span>Photosnap</span>
+                  <h3>Senior FrontEnd Developer</h3>
+                  <ul class="d-flex">
+                    <li>1d ago</li>
+                    <li>Full Time</li>
+                    <li>UZB only</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="filter-group">
+                <span>Backend</span>
+                <span>Junior</span>
+                <span>Ruby</span>
+                <span>RoR</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 wrapper frontend html junior sass javascript">
+            <div class="col-md-6">
+              <div class="filter-card">
+                <div class="filter-img">
+                  <img src="./img/shortly.svg" alt="" />
+                </div>
+                <div class="filter-block">
+                  <span>Photosnap</span>
+                  <h3>Senior FrontEnd Developer</h3>
+                  <ul class="d-flex">
+                    <li>1d ago</li>
+                    <li>Full Time</li>
+                    <li>UZB only</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="filter-group">
+                <span>FrontEnd</span>
+                <span>Junior</span>
+                <span>HTML</span>
+                <span>Sass</span>
+                <span>JavaSript</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 wrapper frontend junior vue javascript sass">
+            <div class="col-md-6">
+              <div class="filter-card">
+                <div class="filter-img">
+                  <img src="./img/insure.svg" alt="" />
+                </div>
+                <div class="filter-block">
+                  <span>Photosnap</span>
+                  <h3>Senior FrontEnd Developer</h3>
+                  <ul class="d-flex">
+                    <li>1d ago</li>
+                    <li>Full Time</li>
+                    <li>UZB only</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="filter-group">
+                <span>FrontEnd</span>
+                <span>Junior</span>
+                <span>Vue</span>
+                <span>JavaSript</span>
+                <span>Sass</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 wrapper fullstack junior javascript django python">
+            <div class="col-md-6">
+              <div class="filter-card">
+                <div class="filter-img">
+                  <img src="./img/eyecam-co.svg" alt="" />
+                </div>
+                <div class="filter-block">
+                  <span>Photosnap</span>
+                  <h3>Senior FrontEnd Developer</h3>
+                  <ul class="d-flex">
+                    <li>1d ago</li>
+                    <li>Full Time</li>
+                    <li>UZB only</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="filter-group">
+                <span>FullStack</span>
+                <span>Junior</span>
+                <span>JavaSript</span>
+                <span>Django</span>
+                <span>Python</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/isotope.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
